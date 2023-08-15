@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+.nav {
+	height: 10vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 2rem;
+	background-color: #e2e2e2;
+	font-family: "Poppins", sans-serif;
+}
+
+.cartButton {
+	color: #e2e2e2;
+	background-color: #313233;
+	font-size: 1.2rem;
+	font-weight: bold;
+	padding: 0.4rem 0.8rem;
+	outline: none;
+	cursor: pointer;
+	margin: 0 2rem;
+	border: 0px;
+	border-radius: 0.2rem;
+	transition: all 0.2s ease-in-out;
+	position: relative;
+	font-family: "Poppins", sans-serif;
+}
+.cartButton:hover {
+	transform: scale(1.05);
+}
+.left {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.navButton {
+	color: #313233;
+	background-color: transparent;
+	font-size: 1.2rem;
+	font-weight: bold;
+	padding: 0.4rem 0.8rem;
+	outline: none;
+	cursor: pointer;
+	margin: 0 1rem;
+	border: 0px;
+	transition: all 0.2s ease-in-out;
+	position: relative;
+	font-family: "Poppins", sans-serif;
+	border-bottom: 3px solid transparent;
+}
+.navButton:hover {
+	color: black;
+	transform: scale(1.05);
+	border-bottom: 3px solid black;
+}
+
+i:hover {
+	color: #000000;
+}
+
+img {
+	width: 180px;
+}
+
+.logo {
+	color: #000000;
+	background-color: transparent;
+	font-size: 2rem;
+	font-weight: bold;
+	padding: 0.4rem 0.4rem;
+	outline: none;
+	cursor: pointer;
+	margin: 0 1rem;
+	border: 0px;
+	position: relative;
+	font-family: "Poppins", sans-serif;
+}
